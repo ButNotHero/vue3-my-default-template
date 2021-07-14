@@ -1,4 +1,10 @@
-# my-typescript-default
+# Vue TypeScript Template
+
+This template uses Vue 3, Vue Router, Vuex, Typescript, testing libraries, Husky, Linters, Vue i18n, Axios.
+
+For Linters, the AirBnb config is used.
+
+There is a possibility of using different layout for pages.
 
 ## Project setup
 ```
@@ -25,9 +31,20 @@ yarn test:unit
 yarn test:e2e
 ```
 
-### Lints and fixes files
+### Lints files
 ```
 yarn lint
+yarn lint:eslint
+yarn lint:prettier
+yarn lint:stylelint
+```
+
+### Fixes files
+```
+yarn fix
+yarn fix:eslint
+yarn fix:prettier
+yarn fix:stylelint
 ```
 
 ### Customize configuration
